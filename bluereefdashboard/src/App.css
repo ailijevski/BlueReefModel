@@ -1,0 +1,300 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.screen {
+  width: 100%;
+  height: 100vh;
+  background:#0C1033;
+  opacity: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sideBar {
+  width: 20vw;
+  height: 100vh;
+  background: rgba(69,74,121,1);
+  opacity: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.middleContent {
+  width: 50vw;
+}
+
+.rightbar {
+  width: 22vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.bigHeader {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.medHeader {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.smallHeader {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+.locationContainer {
+  width: 100% - 16px;
+  height: 33vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-right: 16px;
+  padding-left: 16px;
+  opacity: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.button {
+  width: 100%-4px;
+  height: 30%;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  margin: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: 0px;
+  overflow: hidden;
+}
+.name {
+  color: #0C1033;
+  width: 80%;
+  text-align: left;
+}
+
+.videoPlayer {
+  width: 100em;
+  height: 180px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+}
+
+.allenCoral {
+  width: 20.6vw;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  overflow: hidden;
+  z-index: 2;
+}
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(200,200,200);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+td, th {
+  border: 1px solid rgb(190,190,190);
+  padding: 10px 20px;
+}
+
+th {
+  background-color: rgb(235,235,235);
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) td {
+  background-color: rgb(250,250,250);
+}
+
+tr:nth-child(odd) td {
+  background-color: rgb(245,245,245);
+}
+
+caption {
+  padding: 10px;
+}
+
+.tableRow {
+  color:#000;
+}
+
+.coralScorecards {
+  width: 50vw;
+  opacity: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.scorecardBg1 {
+  width: 143px;
+  height: 140px;
+  background: linear-gradient(rgb(231, 110, 34), rgb(205, 27, 18));
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 30px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+}
+.scorecardBg2 {
+  width: 143px;
+  height: 140px;
+  background: linear-gradient(rgb(231, 205, 34), rgb(205, 108, 18));
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 30px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+}
+.scorecardBg3 {
+  width: 143px;
+  height: 140px;
+  background: linear-gradient(rgb(255, 0, 0), rgb(160, 26, 26));
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 30px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+}
+.scorecardBg4 {
+  width: 143px;
+  height: 140px;
+  background: linear-gradient(rgba(34,231,89,1), rgba(205,197,18,1));
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 30px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+}
+
+.scHeader {
+  width: 110px;
+  color: rgba(0,0,0,1);
+  position: relative;
+  font-weight: Regular;
+  font-size: 15px;
+  padding-top: 10px;
+  opacity: 1;
+  text-align: center;
+}
+.scData {
+  width: 94px;
+  color: rgba(0,0,0,1);
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.supScData {
+  width: 94px;
+  color: rgba(0,0,0,1);
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.bdScale {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.badValue {
+  color: red;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
