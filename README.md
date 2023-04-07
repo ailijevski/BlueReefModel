@@ -19,6 +19,8 @@ As a proof of concept, our team chose to build machine learning models to predic
 A collection of coral reef indexes are calculated below after the appropriate machine learning model training takes effect. Since the coral reefs studied in the dataset we chose to use (available [here](https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:0168915)) were all in the same region, they have similar coral reef indexes, as expected. After grounding our sensors in multiple different coral reef ecosystems around the world, we will be able to predict a wider range of coral reef indexes scoring anywhere between 0.1 and 5, with higher scores indicating better health.
 
 ## Machine Learning Component
+
+IBM Watson Studio Project can be found [here](https://eu-de.dataplatform.cloud.ibm.com/analytics/notebooks/v2/2a841e01-320d-4029-a678-63dfa19cf585/view?access_token=ff7371716e1fba209a1be757a300fa2b597951b2966f8bab45ffcd3246101cba).
 ### Dataset
 
 Below is a snapshot of a few columns present in the dataset we used for the machine learning model. 
