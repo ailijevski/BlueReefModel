@@ -95,7 +95,13 @@ The project currently does the following things.
 - Feature 2
 - Feature 3
 
-In the future we plan to...
+### Future Prospects
+
+The equation above only takes into account what our research found to be the most critical factors in influencing coral reef health. However, there are so many other confounding factors that play a role in stabilizing or de-stabilizing a coral reef ecosystem. These variables, such as coral coverage, disease relevance, and biodiversity, should theoretically sway the coral reef score each by their own appropriate proportion. 
+
+More research has yet to determine the exact contribution of each of these additional variables to the final coral reef index. As of yet, our team plans to continue studying coral reef health as well as the impacts of several factors to the growth of the reefs.
+
+We will use our original equation as a foundation to scoring current coral reef ecosystems, but we will continue to tweak it as we measure the affects of more variables on coral reefs via our BlueReef sensor. Nonetheless, our extensive research has proven that the pH level of the surrounding water, water temperature, and aragonite levels are critical components for the proper coral reef index calculation and thus provide a very appropriate calculation that will be incredibly useful for non-profits/ NGOs interested in drawing attention to and directly improving coral reef ecosystems.
 
 <img width="909" alt="Screen Shot 2023-04-07 at 11 21 37 PM" src="https://user-images.githubusercontent.com/54652395/230701085-719a8f31-1df6-425b-bd12-cf3c8451753b.png">
 
@@ -103,49 +109,7 @@ In the future we plan to...
 
 ## Additional details
 
-_INSTRUCTIONS: The following deliverables are suggested, but **optional**. Additional details like this can help the judges better review your solution. Remove any sections you are not using._
-
-### How to run the project
-
-INSTRUCTIONS: In this section you add the instructions to run your project on your local machine for development and testing purposes. You can also add instructions on how to deploy the project in production.
-
-### Live demo
-
-You can find a running system to test at...
-
-See our [description document](./docs/DESCRIPTION.md) for log in credentials.
-
----
-
-_INSTRUCTIONS: You can remove the below section from your specific project README._
-
-## About this template
-
-### Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
-### Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
-
-### Authors
-
-<a href="https://github.com/Call-for-Code/Project-Sample/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=Call-for-Code/Project-Sample" />
-</a>
-
-- **Billie Thompson** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
-
-### License
-
-This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE) file for details.
-
-### Acknowledgments
-
-- Based on [Billie Thompson's README template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
-
-## Machine Learning Component
+### Machine Learning Component
 
 IBM Watson Studio Project can be found [here](https://eu-de.dataplatform.cloud.ibm.com/analytics/notebooks/v2/2a841e01-320d-4029-a678-63dfa19cf585/view?access_token=ff7371716e1fba209a1be757a300fa2b597951b2966f8bab45ffcd3246101cba).
 ### Dataset
@@ -154,7 +118,7 @@ Below is a snapshot of a few columns present in the dataset we used for the mach
 
 <img width="638" alt="Screen Shot 2023-04-06 at 1 16 01 PM" src="https://user-images.githubusercontent.com/54652395/230449584-022d9e01-c1dc-440f-adbb-38fc47af4742.png">
 
-### Graphs
+#### Graphs
 
 Our team decided to use a pair plot to examine the features of interest and their correlations with other variables in the dataset before selecting a concrete subset of the column attributes as provided in the original dataset.
 
@@ -164,13 +128,13 @@ Below are some datapoints drawn from the iterations of the decision tree regress
 
 <img width="1140" alt="Screen Shot 2023-04-06 at 1 18 30 PM" src="https://user-images.githubusercontent.com/54652395/230450386-f7834d2e-76b2-4f30-ad6c-f4e3322663fe.png">
 
-### Final Performance
+#### Final Performance
 
 After training our model with K-Neareat Neighbors, Decision Trees, and Random Forests, we achieved the following accuracies directly proportional to the r^2 score of the regression models.
 
 <img width="327" alt="Screen Shot 2023-04-06 at 1 19 39 PM" src="https://user-images.githubusercontent.com/54652395/230450822-65f74399-3f13-4604-bde2-39c7c28c33a0.png">
 
-### Calculating the Coral Reef Index
+#### Calculating the Coral Reef Index
 
 As described in our notebook instance, with research, we were able to yield the following equation to calculate a coral reef index. We used this equation on our calculated pH, temperature, and aragonite production levels to retrieve the following coral reef indexes.
 
@@ -178,23 +142,23 @@ As described in our notebook instance, with research, we were able to yield the 
 
 <img width="202" alt="Screen Shot 2023-04-06 at 1 21 52 PM" src="https://user-images.githubusercontent.com/54652395/230451296-ff144619-f4df-47c4-81dc-54499b3b4676.png">
 
-## React Website
+### React Website
 
 The web application we deployed has includes a variety of features critical to understanding coral reef health and will be particular of use to non-profit organizations/ NGOs. The goal of this technical solution is to provide a readily accessible dashboard for these interested parties to use in order to gain a better understanding of where to allocate their resources. For instance, if a non-profit is currently allocating their resources to improve a coral reef ecosystem that already has a favorable coral index score, then they can instead relocate those resources to weaker coral reef ecosystems that are more endangered.
 
-### Menu
+#### Menu
 
 The sidebar displays a list of regions in which coral reefs are located. This allows users of the web app to analyze the coral reef health of regions closest to them such that they are able to provide the most support.
 
 <img width="277" alt="Screen Shot 2023-04-06 at 1 38 14 PM" src="https://user-images.githubusercontent.com/54652395/230454498-2afc3f7b-6764-4f3a-a9b7-a66fc780e6d8.png">
 
-### Reef Metrics
+#### Reef Metrics
 
 The metrics on the top of the dashboard are what we researched to be the most critical factors depicting overall coral reef health. Colors representing each of the metrics range from red to green, which red indicating poor performance and green indicating good/steady performance.
 
 <img width="741" alt="Screen Shot 2023-04-06 at 1 45 08 PM" src="https://user-images.githubusercontent.com/54652395/230455891-14dc6452-66aa-48ea-a29e-bed3cf88829d.png">
 
-### Biodiversity
+#### Biodiversity
 
 The presence of biodiversity helps regulate algae creation and can have a profound influence on coral reef health. The right balance is needed in order to guarantee no bleaching of the coral reefs occurs. A graph and scale are used to illustrate the existance of biodiversity surrounding the coral reef ecoystem.
 
@@ -202,30 +166,31 @@ The presence of biodiversity helps regulate algae creation and can have a profou
 
 <img width="728" alt="Screen Shot 2023-04-06 at 1 47 35 PM" src="https://user-images.githubusercontent.com/54652395/230456410-a6c2ad1f-c4a0-4597-9661-8134ef854870.png">
 
-### Livestream
+#### Livestream
 
 Viewing coral reefs in realtime may help detect their appearance and health as well. Presenting live footage of the coral reefs is also very important to acknowledging how the efforts of NGOs and non-profits can provide ample help to help affected coral ecosystems thrive.
 
 <img width="318" alt="Screen Shot 2023-04-06 at 1 49 41 PM" src="https://user-images.githubusercontent.com/54652395/230456830-889624cc-b21e-4585-828a-db78518e7a5f.png">
 
-### Atlas
+#### Atlas
 
 An atlas has been included on the dashboard to help identify coral reef regions on a map, allowing non-profits/ NGOs to pinpoint exactly where the coral reef damage may be occurring for the chosen region and send materials to those locations accordingly.
 
 <img width="305" alt="Screen Shot 2023-04-06 at 1 51 47 PM" src="https://user-images.githubusercontent.com/54652395/230457238-019ecd60-d66f-423d-b97b-52e8618f3f81.png">
 
-### Water Quality
+#### Water Quality
 
 Understanding the quality of water surrounding the reef ecosystem is crucial to determining the production of aragonite and the physical attributes of the coral reef, such as its thickness, that can be affected by these measurements. The table on the dashboard just provides even more information for NGOs and non-profits in order for them to understand what _type_ of help this coral reef needs in particular to strengthen its skeleton.
 
 <img width="305" alt="Screen Shot 2023-04-06 at 1 53 10 PM" src="https://user-images.githubusercontent.com/54652395/230457527-a0ad1cb8-f2b0-4f34-b1ef-f9ea9ec71331.png">
 
+### How to run the project
 
-## Conclusion
+The notebook cells have already been run with the creator's credentials. Since the credentials required are private to the creator's account, they were redacted for security purposes. However, all graphs, charts, and data displayed are purely as a result of running each consecutive code cell. 
 
-The equation above only takes into account what our research found to be the most critical factors in influencing coral reef health. However, there are so many other confounding factors that play a role in stabilizing or de-stabilizing a coral reef ecosystem. These variables, such as coral coverage, disease relevance, and biodiversity, should theoretically sway the coral reef score each by their own appropriate proportion. 
+---
 
-More research has yet to determine the exact contribution of each of these additional variables to the final coral reef index. As of yet, our team plans to continue studying coral reef health as well as the impacts of several factors to the growth of the reefs.
+### Authors
 
-We will use our original equation as a foundation to scoring current coral reef ecosystems, but we will continue to tweak it as we measure the affects of more variables on coral reefs via our BlueReef sensor. Nonetheless, our extensive research has proven that the pH level of the surrounding water, water temperature, and aragonite levels are critical components for the proper coral reef index calculation and thus provide a very appropriate calculation that will be incredibly useful for non-profits/ NGOs interested in drawing attention to and directly improving coral reef ecosystems.
-
+- **Angelina Ilijevski** 
+- **Andres Ramirez**
