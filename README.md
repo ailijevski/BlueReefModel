@@ -24,7 +24,7 @@ This is where the Blue Reef Foundation comes to the rescue.
 
 ### The issue we are hoping to solve
 
-Build effective and efficient ways to quantifiably promote, preserve, and protect biodiversity.
+ANDRES Build effective and efficient ways to quantifiably promote, preserve, and protect biodiversity. ANDRES
 
 ### How our technology solution can help
 
@@ -122,7 +122,7 @@ As described in our notebook instance, with research, we were able to yield the 
 
 ### React website
 
-The web application we deployed has includes a variety of features critical to understanding coral reef health and will be particular of use to non-profit organizations/ NGOs. The goal of this technical solution is to provide a readily accessible dashboard for these interested parties to use in order to gain a better understanding of where to allocate their resources. For instance, if a non-profit is currently allocating their resources to improve a coral reef ecosystem that already has a favorable coral index score, then they can instead relocate those resources to weaker coral reef ecosystems that are more endangered.
+The [web application](https://bluereef-dashboard.s3-web.us-east.cloud-object-storage.appdomain.cloud) we deployed using Cloud Object Storage includes a variety of features critical to understanding coral reef health and will be particular of use to non-profit organizations/ NGOs. The goal of this technical solution is to provide a readily accessible dashboard for these interested parties to use in order to gain a better understanding of where to allocate their resources. For instance, if a non-profit is currently allocating their resources to improve a coral reef ecosystem that already has a favorable coral index score, then they can instead relocate those resources to weaker coral reef ecosystems that are more endangered.
 
 #### Menu
 
