@@ -21,7 +21,6 @@
   - [License](#license)
   - [Acknowledgments](#acknowledgments)
 
-
 ## Project summary
 
 With the rise of human activity or even underwater sea life populations, coral reef health is put on the line. Mandating regulations to prevent underwater activity is unlikely to influence anyone's decisions. So, how can we draw attention to these underwater coral reef ecosystems that are in need of care and attention? The answer lies within the question: we must _draw attention_ to these ecosystems by broadcasting their defining metrics in the form of a single score describing the health status of the given coral reef.
@@ -95,7 +94,7 @@ The project currently does the following things.
 
 In the future we plan to...
 
-[BlueReef Foundation Business Model](/BlueReef%20Foundation%20Business%20Model.pdf)
+<img width="909" alt="Screen Shot 2023-04-07 at 11 21 37 PM" src="https://user-images.githubusercontent.com/54652395/230701085-719a8f31-1df6-425b-bd12-cf3c8451753b.png">
 [BlueReef Foundation Business Model 2](/BlueReef%20Foundation%20Business%20Model%202.pdf)
 
 
