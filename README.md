@@ -83,11 +83,9 @@ _INSTRUCTIONS: The following deliverables should be officially posted to your My
 
 ### Project development roadmap
 
-The project currently does the following things.
+<img width="909" alt="Screen Shot 2023-04-07 at 11 21 37 PM" src="https://user-images.githubusercontent.com/54652395/230701085-719a8f31-1df6-425b-bd12-cf3c8451753b.png">
 
-- Feature 1
-- Feature 2
-- Feature 3
+<img width="605" alt="Screen Shot 2023-04-07 at 11 23 21 PM" src="https://user-images.githubusercontent.com/54652395/230701125-6769d6c7-f8c6-477a-b6a8-91994d857ccb.png">
 
 ### Future Prospects
 
@@ -96,10 +94,6 @@ The equation above only takes into account what our research found to be the mos
 More research has yet to determine the exact contribution of each of these additional variables to the final coral reef index. As of yet, our team plans to continue studying coral reef health as well as the impacts of several factors to the growth of the reefs.
 
 We will use our original equation as a foundation to scoring current coral reef ecosystems, but we will continue to tweak it as we measure the affects of more variables on coral reefs via our BlueReef sensor. Nonetheless, our extensive research has proven that the pH level of the surrounding water, water temperature, and aragonite levels are critical components for the proper coral reef index calculation and thus provide a very appropriate calculation that will be incredibly useful for non-profits/ NGOs interested in drawing attention to and directly improving coral reef ecosystems.
-
-<img width="909" alt="Screen Shot 2023-04-07 at 11 21 37 PM" src="https://user-images.githubusercontent.com/54652395/230701085-719a8f31-1df6-425b-bd12-cf3c8451753b.png">
-
-<img width="605" alt="Screen Shot 2023-04-07 at 11 23 21 PM" src="https://user-images.githubusercontent.com/54652395/230701125-6769d6c7-f8c6-477a-b6a8-91994d857ccb.png">
 
 ## Additional details
 
