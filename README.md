@@ -50,9 +50,9 @@ With this information and research, our team formulated an equation to determine
 _INSTRUCTIONS: Included here is a list of commonly used IBM AI services. Remove any services you did not use, or add others from the linked catalog not already listed here. Leave only those included in your solution code. Provide details on where and how you used each IBM AI service to help judges review your implementation. Remove these instructions._
 - [IBM Watson Studios](https://cloud.ibm.com/catalog/services/watson-studio?catalog_query=aHR0cHM6Ly9jbG91ZC5pYm0uY29tL2NhdGFsb2c%2FY2F0ZWdvcnk9YWkjc2VydmljZXM%3D)- Efficient scaling and building of machine learning models that determine what coral reef is lacking.
 
-- [IBM Cloud Object Storage S3]([https://cloud.ibm.com/catalog/services/natural-language-understanding](https://www.ibm.com/docs/en/db2-big-sql/5.0.3?topic=locations-s3)) - Allows for us to store and manage unstructured data points received by our system of sensors.
-- [Watson Assistant](https://cloud.ibm.com/catalog/services/watson-assistant) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- [Watson Discovery](https://cloud.ibm.com/catalog/services/watson-discovery) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
+- [IBM Cloud Object Storage S3]([https://cloud.ibm.com/catalog/services/natural-language-understanding](https://www.ibm.com/docs/en/db2-big-sql/5.0.3?topic=locations-s3) - Allows for us to store and manage unstructured data points received by our system of sensors.
+- [IBM API Connect]([https://cloud.ibm.com/catalog/services/watson-assistant](https://www.ibm.com/products/api-connect?utm_content=SRCWW&p1=Search&p4=43700074478134124&p5=p&gclid=Cj0KCQjw_r6hBhDdARIsAMIDhV_qr7-DmFAWMWnLiHyMNizro5w2HrcTW40IB6TOQoJXVDooFY0VXVsaAlN2EALw_wcB&gclsrc=aw.ds) - The IBM API Connect is used to securly manage and secure Weather.com data and Allen Coral Atlas map interface
+
 - [Watson Speech to Text](https://cloud.ibm.com/catalog/services/speech-to-text) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
 - [Watson Text to Speech](https://cloud.ibm.com/catalog/services/text-to-speech) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
 - List any additional [IBM AI services](https://cloud.ibm.com/catalog?category=ai#services) used or remove this line
