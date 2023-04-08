@@ -94,8 +94,9 @@ The project currently does the following things.
 
 In the future we plan to...
 
+[BlueReef Foundation Business Model](/BlueReef%20Foundation%20Business%20Model.pdf)
+[BlueReef Foundation Business Model 2](/BlueReef%20Foundation%20Business%20Model%202.pdf)
 
-![Roadmap](./images/roadmap.jpg)
 
 ## Additional details
 
