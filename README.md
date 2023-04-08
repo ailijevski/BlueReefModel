@@ -6,20 +6,15 @@
   - [Our idea](#our-idea)
 - [Technology implementation](#technology-implementation)
   - [IBM AI service(s) used](#ibm-ai-services-used)
-  - [Other IBM technology used](#other-ibm-technology-used)
   - [Solution architecture](#solution-architecture)
 - [Presentation materials](#presentation-materials)
   - [Solution demo video](#solution-demo-video)
   - [Project development roadmap](#project-development-roadmap)
+  - [Future Prospects](#future-prospects)
 - [Additional details](#additional-details)
   - [How to run the project](#how-to-run-the-project)
-  - [Live demo](#live-demo)
 - [About this template](#about-this-template)
-  - [Contributing](#contributing)
-  - [Versioning](#versioning)
   - [Authors](#authors)
-  - [License](#license)
-  - [Acknowledgments](#acknowledgments)
 
 ## Project summary
 
@@ -82,7 +77,7 @@ _INSTRUCTIONS: The following deliverables should be officially posted to your My
 
 <img width="605" alt="Screen Shot 2023-04-07 at 11 23 21 PM" src="https://user-images.githubusercontent.com/54652395/230701125-6769d6c7-f8c6-477a-b6a8-91994d857ccb.png">
 
-### Future Prospects
+### Future prospects
 
 The equation above only takes into account what our research found to be the most critical factors in influencing coral reef health. However, there are so many other confounding factors that play a role in stabilizing or de-stabilizing a coral reef ecosystem. These variables, such as coral coverage, disease relevance, and biodiversity, should theoretically sway the coral reef score each by their own appropriate proportion. 
 
@@ -92,7 +87,7 @@ We will use our original equation as a foundation to scoring current coral reef 
 
 ## Additional details
 
-### Machine Learning Component
+### Machine Learning component
 
 IBM Watson Studio Project can be found [here](https://eu-de.dataplatform.cloud.ibm.com/analytics/notebooks/v2/2a841e01-320d-4029-a678-63dfa19cf585/view?access_token=ff7371716e1fba209a1be757a300fa2b597951b2966f8bab45ffcd3246101cba).
 ### Dataset
@@ -111,13 +106,13 @@ Below are some datapoints drawn from the iterations of the decision tree regress
 
 <img width="1140" alt="Screen Shot 2023-04-06 at 1 18 30 PM" src="https://user-images.githubusercontent.com/54652395/230450386-f7834d2e-76b2-4f30-ad6c-f4e3322663fe.png">
 
-#### Final Performance
+#### Final performance
 
 After training our model with K-Neareat Neighbors, Decision Trees, and Random Forests, we achieved the following accuracies directly proportional to the r^2 score of the regression models.
 
 <img width="327" alt="Screen Shot 2023-04-06 at 1 19 39 PM" src="https://user-images.githubusercontent.com/54652395/230450822-65f74399-3f13-4604-bde2-39c7c28c33a0.png">
 
-#### Calculating the Coral Reef Index
+#### Calculating the coral reef index
 
 As described in our notebook instance, with research, we were able to yield the following equation to calculate a coral reef index. We used this equation on our calculated pH, temperature, and aragonite production levels to retrieve the following coral reef indexes.
 
@@ -125,7 +120,7 @@ As described in our notebook instance, with research, we were able to yield the 
 
 <img width="202" alt="Screen Shot 2023-04-06 at 1 21 52 PM" src="https://user-images.githubusercontent.com/54652395/230451296-ff144619-f4df-47c4-81dc-54499b3b4676.png">
 
-### React Website
+### React website
 
 The web application we deployed has includes a variety of features critical to understanding coral reef health and will be particular of use to non-profit organizations/ NGOs. The goal of this technical solution is to provide a readily accessible dashboard for these interested parties to use in order to gain a better understanding of where to allocate their resources. For instance, if a non-profit is currently allocating their resources to improve a coral reef ecosystem that already has a favorable coral index score, then they can instead relocate those resources to weaker coral reef ecosystems that are more endangered.
 
@@ -135,7 +130,7 @@ The sidebar displays a list of regions in which coral reefs are located. This al
 
 <img width="277" alt="Screen Shot 2023-04-06 at 1 38 14 PM" src="https://user-images.githubusercontent.com/54652395/230454498-2afc3f7b-6764-4f3a-a9b7-a66fc780e6d8.png">
 
-#### Reef Metrics
+#### Reef metrics
 
 The metrics on the top of the dashboard are what we researched to be the most critical factors depicting overall coral reef health. Colors representing each of the metrics range from red to green, which red indicating poor performance and green indicating good/steady performance.
 
@@ -161,7 +156,7 @@ An atlas has been included on the dashboard to help identify coral reef regions 
 
 <img width="305" alt="Screen Shot 2023-04-06 at 1 51 47 PM" src="https://user-images.githubusercontent.com/54652395/230457238-019ecd60-d66f-423d-b97b-52e8618f3f81.png">
 
-#### Water Quality
+#### Water quality
 
 Understanding the quality of water surrounding the reef ecosystem is crucial to determining the production of aragonite and the physical attributes of the coral reef, such as its thickness, that can be affected by these measurements. The table on the dashboard just provides even more information for NGOs and non-profits in order for them to understand what _type_ of help this coral reef needs in particular to strengthen its skeleton.
 
@@ -172,6 +167,7 @@ Understanding the quality of water surrounding the reef ecosystem is crucial to 
 The notebook cells have already been run with the creator's credentials. Since the credentials required are private to the creator's account, they were redacted for security purposes. However, all graphs, charts, and data displayed are purely as a result of running each consecutive code cell. 
 
 ---
+## About this template
 
 ### Authors
 
