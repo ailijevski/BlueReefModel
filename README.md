@@ -58,9 +58,6 @@ A collection of coral reef indexes are calculated below after the appropriate ma
 
 ### Other IBM technology used
 
-## Presentation materials
-
-_INSTRUCTIONS: The following deliverables should be officially posted to your My Team > Submissions section of the [Call for Code Global Challenge resources site](https://cfc-prod.skillsnetwork.site/), but you can also include them here for completeness. Replace the examples seen here with your own deliverable links._
 
 ### Solution architecture
 
