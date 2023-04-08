@@ -37,8 +37,6 @@ Our solution will help make the monitoring and protecting of reefs more efficien
 
 ### Our idea
 
-INSTRUCTIONS: Replace this paragraph with a longer description of your solution. In about 500 words, describe your solution in more detail. Include the real-world problem you identified, describe the technological solution you have created, and explain how it’s an improvement over existing solutions. You can supply additional documentation in this source code repository that you link to as well.
-
 With multiple variables known to impact sea life, our team set out to research the variables that are known to affect a specific niche of these life forms -- coral reefs. Our goal with this ongoing research is to pinpoint the most negatively impacted coral reef ecosystems and be able to direct non-profits/ NGOs to these regions. By supplying interested non-profits/ NGOs with relevant coral reef health metrics, we will be able to better identify coral reefs at risk of thinning, bleaching, or other harmful affects and revive them accordingly.
 
 After thorough research, it became clear to the team that coral growth, temperature, and water properties were important to defining the health of coral reef ecosystems. Further research uncovered that the presence of sunscreen may modify pH levels of the water, high temperatures and presence of invasive species may promote coral bleaching and disrupt ecosystems, and many other facts presented in our accompanying research outlines. These variables affect the physical attributes of coral reefs by making them thinner and more susceptible to breakage. As a result, coral reefs are unable to produce sufficient amounts of aragonite to strengthen their skeletons.  
