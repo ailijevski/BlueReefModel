@@ -56,8 +56,6 @@ A collection of coral reef indexes are calculated below after the appropriate ma
 - [IBM Cloud Object Storage S3](https://www.ibm.com/docs/en/db2-big-sql/5.0.3?topic=locations-s3) - Allows for us to store and manage unstructured data points received by our system of sensors.
 - [IBM API Connect](https://www.ibm.com/products/api-connect?utm_content=SRCWW&p1=Search&p4=43700074478134124&p5=p&gclid=Cj0KCQjw_r6hBhDdARIsAMIDhV_qr7-DmFAWMWnLiHyMNizro5w2HrcTW40IB6TOQoJXVDooFY0VXVsaAlN2EALw_wcB&gclsrc=aw.ds) - The IBM API Connect is used to securly manage and secure Weather.com data and Allen Coral Atlas map interface
 
-### Other IBM technology used
-
 
 ### Solution architecture
 
