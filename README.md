@@ -31,7 +31,6 @@ This is where the Blue Reef Foundation comes to the rescue.
 
 Build effective and efficient ways to quantifiably promote, preserve, and protect biodiversity.
 
-
 ### How our technology solution can help
 
 Our solution will help make the monitoring and protecting of reefs more efficient.
@@ -95,8 +94,8 @@ The project currently does the following things.
 In the future we plan to...
 
 <img width="909" alt="Screen Shot 2023-04-07 at 11 21 37 PM" src="https://user-images.githubusercontent.com/54652395/230701085-719a8f31-1df6-425b-bd12-cf3c8451753b.png">
-[BlueReef Foundation Business Model 2](/BlueReef%20Foundation%20Business%20Model%202.pdf)
 
+<img width="605" alt="Screen Shot 2023-04-07 at 11 23 21 PM" src="https://user-images.githubusercontent.com/54652395/230701125-6769d6c7-f8c6-477a-b6a8-91994d857ccb.png">
 
 ## Additional details
 
