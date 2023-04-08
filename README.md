@@ -68,6 +68,7 @@ Diagram and step-by-step description of the flow of our solution:
 ### Solution demo video
 
 [![Watch the video](https://user-images.githubusercontent.com/52334278/230706118-3a2b4be4-ad0a-4b7e-a817-bb01cd76084a.png)](https://youtu.be/dH1asHTritk)
+[![Link]]https://youtu.be/dH1asHTritk)
 
 ### Project development roadmap
 
