@@ -73,7 +73,7 @@ _INSTRUCTIONS: The following deliverables should be officially posted to your My
 
 ### Project development roadmap
 
-Our project development roadmap is pictured below. We have also included a business model that has helped us in defining the most critical parts of the implementation process.
+Our project development roadmap pictured below includes a timeline for the process of development we anticipated for the curation of our coral reef health improvement solution. We have also included a business model that has helped us in defining the most critical parts of the implementation process.
 
 <img width="909" alt="Screen Shot 2023-04-07 at 11 21 37 PM" src="https://user-images.githubusercontent.com/54652395/230701085-719a8f31-1df6-425b-bd12-cf3c8451753b.png">
 
