@@ -10,7 +10,7 @@
 - [Presentation materials](#presentation-materials)
   - [Solution demo video](#solution-demo-video)
   - [Project development roadmap](#project-development-roadmap)
-  - [Future Prospects](#future-prospects)
+  - [Future prospects](#future-prospects)
 - [Additional details](#additional-details)
   - [How to run the project](#how-to-run-the-project)
 - [About this template](#about-this-template)
