@@ -20,11 +20,11 @@
 
 With the rise of human activity or even underwater sea life populations, coral reef health is put on the line. Mandating regulations to prevent underwater activity is unlikely to influence anyone's decisions. So, how can we draw attention to these underwater coral reef ecosystems that are in need of care and attention? The answer lies within the question: we must _draw attention_ to these ecosystems by broadcasting their defining metrics in the form of a single score describing the health status of the given coral reef.
 
-This is where the Blue Reef Foundation comes to the rescue. 
+This is where the Blue Reef Foundation comes to the rescue.
 
 ### The issue we are hoping to solve
 
-ANDRES Build effective and efficient ways to quantifiably promote, preserve, and protect biodiversity. ANDRES
+We aim to provide an infrastructure to quantifiably promote, preserve, and protect biodiversity in a cost-effective manner. We also aim to raise awareness of the affects of climate change on our Earth's diverse ecosystems.
 
 ### How our technology solution can help
 
@@ -32,15 +32,15 @@ Our solution will help make the monitoring and protecting of reefs more efficien
 
 ### Our idea
 
-With multiple variables known to impact sea life, our team set out to research the variables that are known to affect a specific niche of these life forms -- coral reefs. Our goal with this ongoing research is to pinpoint the most negatively impacted coral reef ecosystems and be able to direct non-profits/ NGOs to these regions. By supplying interested non-profits/ NGOs with relevant coral reef health metrics, we will be able to better identify coral reefs at risk of thinning, bleaching, or other harmful affects and revive them accordingly.
+With multiple variables known to impact sea life, our team set out to research the variables that are known to affect a specific niche of these life forms -- coral reefs. Our goal with this ongoing research is to pinpoint the most negatively impacted coral reef ecosystems and be able to direct non-profits/ NGOs to these regions, advise governments to develop targeted regulations, and enable researchers to discover groundbreaking insight into coral reefs. By supplying interested non-profits/ NGOs with relevant coral reef health metrics, we will be able to better identify coral reefs at risk of thinning, bleaching, or other harmful affects and revive them accordingly.
 
-After thorough research, it became clear to the team that coral growth, temperature, and water properties were important to defining the health of coral reef ecosystems. Further research uncovered that the presence of sunscreen may modify pH levels of the water, high temperatures and presence of invasive species may promote coral bleaching and disrupt ecosystems, and many other facts presented in our accompanying research outlines. These variables affect the physical attributes of coral reefs by making them thinner and more susceptible to breakage. As a result, coral reefs are unable to produce sufficient amounts of aragonite to strengthen their skeletons.  
+After thorough research, it became clear to the team that coral growth, temperature, and water properties were important to defining the health of coral reef ecosystems. Further research uncovered that the presence of sunscreen may modify pH levels of the water, high temperatures and presence of invasive species may promote coral bleaching and disrupt ecosystems, and many other facts presented in our accompanying research outlines. These variables affect the physical attributes of coral reefs by making them thinner and more susceptible to breakage. As a result, coral reefs are unable to produce sufficient amounts of aragonite to strengthen their skeletons.
 
-With this information and research, our team formulated an equation to determine a **coral reef index** from coral growth (proportionally related to pH), water temperature, and aragonite measurements. Though we recognize that other factors may also be significant to include in this equation, we must perform further research to determine the impact of the other potential determinants by proportion. 
+With this information and research, our team formulated an equation to determine a **coral reef index** from coral growth - proportionally related to pH, water temperature, and aragonite measurements. Though we recognize that other factors may also be significant to include in this equation, we must perform further research to determine the impact of the other potential determinants by proportion.
 
-As a proof of concept, our team chose to build machine learning models to predict the values for the variables involved in our coral reef index equation. The reason this is so important is because it will allow us to predict quantities that our sensor, *embedded within an artificial coral reef*, may not be able to detect yet are crucial to defining a coral reef's health status. This model is meant to be replicated and trained on factors that influence the variables (coral growth, temperature, aragonite level) that are included in our index calculations. This way, if further research shows that other variables are significant enough to include in our evaluation of coral reefs, we can predict their values with enough evidence gathered from our sensor regarding the surrounding ecosystem of the coral reef. Current solutions do *not* use an equation to determine the health of a coral reef based on a variety of factors nor do they use sensors with as much functionality as our architectured solution to gather information on water properties and the surrounding ecosystem's quality of life.
+As a proof of concept, our team chose to build machine learning models to predict the values for the variables involved in our coral reef index equation. The reason this is so important is because it will allow us to predict quantities that our sensor, _embedded within an artificial coral reef_, may not be able to detect yet are crucial to defining a coral reef's health status. This model is meant to be replicated and trained on factors that influence the variables (coral growth, temperature, aragonite level) that are included in our index calculations. This way, if further research shows that other variables are significant enough to include in our evaluation of coral reefs, we can predict their values with enough evidence gathered from our sensor regarding the surrounding ecosystem of the coral reef. Current solutions do _not_ use an equation to determine the health of a coral reef based on a variety of factors nor do they use sensors with as much functionality as our architectured solution to gather information on water properties and the surrounding ecosystem's quality of life.
 
-A collection of coral reef indexes are calculated below after the appropriate machine learning model training takes effect. Since the coral reefs studied in the dataset we chose to use (available [here](https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:0168915)) were all in the same region, they have similar coral reef indexes, as expected [1]. After grounding our sensors in multiple different coral reef ecosystems around the world, we will be able to predict a wider range of coral reef indexes scoring anywhere between 0.1 and 5, with higher scores indicating better health.
+A collection of coral reef indexes are calculated below after the appropriate machine learning model training takes effect. Since the coral reefs studied in the dataset we chose to use (available [here](https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:0168915)) were all in the same region, they have similar coral reef indexes, as expected [1]. After grounding our sensors in multiple different coral reef ecosystems around the world, we will be able to predict a wider range of coral reef indexes scoring anywhere between 0 and 5, with higher scores indicating better health.
 
 ## Technology implementation
 
@@ -48,9 +48,9 @@ A collection of coral reef indexes are calculated below after the appropriate ma
 
 - [IBM Watson Studios](https://cloud.ibm.com/catalog/services/watson-studio?catalog_query=aHR0cHM6Ly9jbG91ZC5pYm0uY29tL2NhdGFsb2c%2FY2F0ZWdvcnk9YWkjc2VydmljZXM%3D)- Efficient scaling and building of machine learning models that determine what coral reef is lacking.
 
-- [IBM Cloud Object Storage S3](https://www.ibm.com/docs/en/db2-big-sql/5.0.3?topic=locations-s3) - Allows for us to store and manage unstructured data points received by our system of sensors.
-- [IBM API Connect](https://www.ibm.com/products/api-connect?utm_content=SRCWW&p1=Search&p4=43700074478134124&p5=p&gclid=Cj0KCQjw_r6hBhDdARIsAMIDhV_qr7-DmFAWMWnLiHyMNizro5w2HrcTW40IB6TOQoJXVDooFY0VXVsaAlN2EALw_wcB&gclsrc=aw.ds) - The IBM API Connect is used to securly manage and secure Weather.com data and Allen Coral Atlas map interface
+- [IBM Cloud Object Storage S3](https://www.ibm.com/docs/en/db2-big-sql/5.0.3?topic=locations-s3) - Allows us to store and deploy the BlueReef Dashboard and its corresponding resources.
 
+- [IBM API Connect](https://www.ibm.com/products/api-connect?utm_content=SRCWW&p1=Search&p4=43700074478134124&p5=p&gclid=Cj0KCQjw_r6hBhDdARIsAMIDhV_qr7-DmFAWMWnLiHyMNizro5w2HrcTW40IB6TOQoJXVDooFY0VXVsaAlN2EALw_wcB&gclsrc=aw.ds) - The IBM API Connect is used to securly manage and secure Weather.com data and Allen Coral Atlas map interface
 
 ### Solution architecture
 
@@ -60,16 +60,14 @@ Diagram and step-by-step description of the flow of our solution:
 
 1. The sensor is disguised as an artificial reef and planted in the coral reef ecosystem where it begins to collect and load datapoints into the coral environment and biodiversity databases.
 2. The sensor data is fed into a Watson Machine Learning (ML) Model to perform coral reef growth predictions.
-3. Reef health indices are calculated from the resulting predictions of the ML model and are fed into a Reef Health Index database. 
+3. Reef health indices are calculated from the resulting predictions of the ML model and are fed into a Reef Health Index database.
 4. API Management tools, such as IBM API Connect, are used to display the backend ML model output into a full stack react dashboard deployed via IBM Cloud Object Storage S3.
 
 ## Presentation materials
 
-_INSTRUCTIONS: The following deliverables should be officially posted to your My Team > Submissions section of the [Call for Code Global Challenge resources site](https://cfc-prod.skillsnetwork.site/), but you can also include them here for completeness. Replace the examples seen here with your own deliverable links._
-
 ### Solution demo video
 
-[![Watch the video](https://raw.githubusercontent.com/Liquid-Prep/Liquid-Prep/main/images/readme/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
+[![Watch the video](https://raw.githubusercontent.com/Liquid-Prep/Liquid-Prep/main/images/readme/IBM-interview-video-image.png)](https://youtu.be/dH1asHTritk)
 
 ### Project development roadmap
 
@@ -81,7 +79,7 @@ Our project development roadmap pictured below includes a timeline for the proce
 
 ### Future prospects
 
-The equation above only takes into account what our research found to be the most critical factors in influencing coral reef health. However, there are so many other confounding factors that play a role in stabilizing or de-stabilizing a coral reef ecosystem. These variables, such as coral coverage, disease relevance, and biodiversity, should theoretically sway the coral reef score each by their own appropriate proportion. 
+The equation above only takes into account what our research found to be the most critical factors in influencing coral reef health. However, there are so many other confounding factors that play a role in stabilizing or de-stabilizing a coral reef ecosystem. These variables, such as coral coverage, disease relevance, and biodiversity, should theoretically sway the coral reef score each by their own appropriate proportion.
 
 More research has yet to determine the exact contribution of each of these additional variables to the final coral reef index. As of yet, our team plans to continue studying coral reef health as well as the impacts of several factors to the growth of the reefs.
 
@@ -92,9 +90,10 @@ We will use our original equation as a foundation to scoring current coral reef 
 ### Machine Learning component
 
 IBM Watson Studio Project can be found [here](https://eu-de.dataplatform.cloud.ibm.com/analytics/notebooks/v2/2a841e01-320d-4029-a678-63dfa19cf585/view?access_token=ff7371716e1fba209a1be757a300fa2b597951b2966f8bab45ffcd3246101cba).
+
 ### Dataset
 
-Below is a snapshot of a few columns present in the dataset we used for the machine learning model. 
+Below is a snapshot of a few columns present in the dataset we used for the machine learning model.
 
 <img width="638" alt="Screen Shot 2023-04-06 at 1 16 01 PM" src="https://user-images.githubusercontent.com/54652395/230449584-022d9e01-c1dc-440f-adbb-38fc47af4742.png">
 
@@ -166,12 +165,13 @@ Understanding the quality of water surrounding the reef ecosystem is crucial to 
 
 ### How to run the project
 
-The notebook cells have already been run with the creator's credentials. Since the credentials required are private to the creator's account, they were redacted for security purposes. However, all graphs, charts, and data displayed are purely as a result of running each consecutive code cell. 
+The notebook cells have already been run with the creator's credentials. Since the credentials required are private to the creator's account, they were redacted for security purposes. However, all graphs, charts, and data displayed are purely as a result of running each consecutive code cell.
 
 ---
+
 ## About this template
 
 ### Authors
 
-- **Angelina Ilijevski** 
+- **Angelina Ilijevski**
 - **Andres Ramirez**
