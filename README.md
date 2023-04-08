@@ -1,5 +1,148 @@
 # BlueReef Foundation
 
+- [Project summary](#project-summary)
+  - [The issue we are hoping to solve](#the-issue-we-are-hoping-to-solve)
+  - [How our technology solution can help](#how-our-technology-solution-can-help)
+  - [Our idea](#our-idea)
+- [Technology implementation](#technology-implementation)
+  - [IBM AI service(s) used](#ibm-ai-services-used)
+  - [Other IBM technology used](#other-ibm-technology-used)
+  - [Solution architecture](#solution-architecture)
+- [Presentation materials](#presentation-materials)
+  - [Solution demo video](#solution-demo-video)
+  - [Project development roadmap](#project-development-roadmap)
+- [Additional details](#additional-details)
+  - [How to run the project](#how-to-run-the-project)
+  - [Live demo](#live-demo)
+- [About this template](#about-this-template)
+  - [Contributing](#contributing)
+  - [Versioning](#versioning)
+  - [Authors](#authors)
+  - [License](#license)
+  - [Acknowledgments](#acknowledgments)
+
+
+## Project summary
+
+With the rise of human activity or even underwater sea life populations, coral reef health is put on the line. Mandating regulations to prevent underwater activity is unlikely to influence anyone's decisions. So, how can we draw attention to these underwater coral reef ecosystems that are in need of care and attention? The answer lies within the question: we must _draw attention_ to these ecosystems by broadcasting their defining metrics in the form of a single score describing the health status of the given coral reef.
+
+This is where the Blue Reef Foundation comes to the rescue. 
+
+### The issue we are hoping to solve
+
+Build effective and efficient ways to quantifiably promote, preserve, and protect biodiversity.
+
+
+### How our technology solution can help
+
+Our solution will help make the monitoring and protecting of reefs more efficient.
+
+### Our idea
+
+With multiple variables known to impact sea life, our team set out to research the variables that are known to affect a specific niche of these life forms -- coral reefs. Our goal with this ongoing research is to pinpoint the most negatively impacted coral reef ecosystems and be able to direct non-profits/ NGOs to these regions. By supplying interested non-profits/ NGOs with relevant coral reef health metrics, we will be able to better identify coral reefs at risk of thinning, bleaching, or other harmful affects and revive them accordingly.
+
+After thorough research, it became clear to the team that pH, temperature, and water properties were important to defining the health of coral reef ecosystems. Further research uncovered that the presence of sunscreen may modify pH levels of the water, high temperatures and presence of invasive species may promote coral bleaching and disrupt ecosystems, and many other facts presented in our accompanying research outlines. These variables affect the physical attributes of coral reefs by making them thinner and more susceptible to breakage. As a result, coral reefs are unable to produce sufficient amounts of aragonite to strengthen their skeletons.  
+
+With this information and research, our team formulated an equation to determine a **coral reef index** from pH of the surrounding water, water temperature, and aragonite measurements. Though we recognize that other factors may also be significant to include in this equation, we must perform further research to determine the impact of the other potential determinants by proportion. 
+
+## Technology implementation
+
+### IBM AI service(s) used
+
+_INSTRUCTIONS: Included here is a list of commonly used IBM AI services. Remove any services you did not use, or add others from the linked catalog not already listed here. Leave only those included in your solution code. Provide details on where and how you used each IBM AI service to help judges review your implementation. Remove these instructions._
+
+- [IBM Natural Language Understanding](https://cloud.ibm.com/catalog/services/natural-language-understanding) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
+- [Watson Assistant](https://cloud.ibm.com/catalog/services/watson-assistant) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
+- [Watson Discovery](https://cloud.ibm.com/catalog/services/watson-discovery) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
+- [Watson Speech to Text](https://cloud.ibm.com/catalog/services/speech-to-text) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
+- [Watson Text to Speech](https://cloud.ibm.com/catalog/services/text-to-speech) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
+- List any additional [IBM AI services](https://cloud.ibm.com/catalog?category=ai#services) used or remove this line
+
+### Other IBM technology used
+
+INSTRUCTIONS: List any other IBM technology used in your solution and describe how each component was used. If you can provide links to/details on exactly where these were used in your code, that would help the judges review your submission.
+## Presentation materials
+
+_INSTRUCTIONS: The following deliverables should be officially posted to your My Team > Submissions section of the [Call for Code Global Challenge resources site](https://cfc-prod.skillsnetwork.site/), but you can also include them here for completeness. Replace the examples seen here with your own deliverable links._
+
+### Solution architecture
+
+Diagram and step-by-step description of the flow of our solution:
+
+![Video transcription/translaftion app](https://developer.ibm.com/developer/tutorials/cfc-starter-kit-speech-to-text-app-example/images/cfc-covid19-remote-education-diagram-2.png)
+
+1. The user navigates to the site and uploads a video file.
+2. Watson Speech to Text processes the audio and extracts the text.
+3. Watson Translation (optionally) can translate the text to the desired language.
+4. The app stores the translated text as a document within Object Storage.
+
+## Presentation materials
+
+_INSTRUCTIONS: The following deliverables should be officially posted to your My Team > Submissions section of the [Call for Code Global Challenge resources site](https://cfc-prod.skillsnetwork.site/), but you can also include them here for completeness. Replace the examples seen here with your own deliverable links._
+
+### Solution demo video
+
+[![Watch the video](https://raw.githubusercontent.com/Liquid-Prep/Liquid-Prep/main/images/readme/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
+
+### Project development roadmap
+
+The project currently does the following things.
+
+- Feature 1
+- Feature 2
+- Feature 3
+
+In the future we plan to...
+
+
+![Roadmap](./images/roadmap.jpg)
+
+## Additional details
+
+_INSTRUCTIONS: The following deliverables are suggested, but **optional**. Additional details like this can help the judges better review your solution. Remove any sections you are not using._
+
+### How to run the project
+
+INSTRUCTIONS: In this section you add the instructions to run your project on your local machine for development and testing purposes. You can also add instructions on how to deploy the project in production.
+
+### Live demo
+
+You can find a running system to test at...
+
+See our [description document](./docs/DESCRIPTION.md) for log in credentials.
+
+---
+
+_INSTRUCTIONS: You can remove the below section from your specific project README._
+
+## About this template
+
+### Contributing
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+
+### Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
+
+### Authors
+
+<a href="https://github.com/Call-for-Code/Project-Sample/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=Call-for-Code/Project-Sample" />
+</a>
+
+- **Billie Thompson** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
+
+### License
+
+This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE) file for details.
+
+### Acknowledgments
+
+- Based on [Billie Thompson's README template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
+
+# BlueReef Foundation
+
 With the rise of human activity or even underwater sea life populations, coral reef health is put on the line. Mandating regulations to prevent underwater activity is unlikely to influence anyone's decisions. So, how can we draw attention to these underwater coral reef ecosystems that are in need of care and attention? The answer lies within the question: we must _draw attention_ to these ecosystems by broadcasting their defining metrics in the form of a single score describing the health status of the given coral reef.
 
 This is where the Blue Reef Foundation comes to the rescue. 
