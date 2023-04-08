@@ -175,3 +175,8 @@ The notebook cells have already been run with the creator's credentials. Since t
 
 - **Angelina Ilijevski**
 - **Andres Ramirez**
+
+#### References
+[1] N. O. A. A. National Centers for Environmental Information (NCEI), “Dissolved inorganic carbon, total alkalinity, ph and other variables collected from surface discrete measurements using coulometer, alkalinity titrator and other instruments from Timor-Leste from 2013-06-06 to 2014-10-09 (NCEI accession 0168915),” National Centers for Environmental Information (NCEI), 25-Mar-2023. [Online]. Available: https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc%3A0168915. [Accessed: 18-Mar-2023]. 
+[2] H. Barkley, “Scientists pinpoint how ocean acidification weakens coral skeletons,” NSF, 29-Jan-2018. [Online]. Available: https://beta.nsf.gov/news/scientists-pinpoint-how-ocean-acidification. [Accessed: 19-Mar-2023]. 
+[3] EarthLabs, “4C: Ocean Chemistry,” Corals, 06-Oct-2021. [Online]. Available: https://serc.carleton.edu/eslabs/corals/4c.html. [Accessed: 01-Apr-2023]. 
