@@ -1,4 +1,4 @@
-# BlueReefModel
+# BlueReef Foundation
 
 With the rise of human activity or even underwater sea life populations, coral reef health is put on the line. Mandating regulations to prevent underwater activity is unlikely to influence anyone's decisions. So, how can we draw attention to these underwater coral reef ecosystems that are in need of care and attention? The answer lies within the question: we must _draw attention_ to these ecosystems by broadcasting their defining metrics in the form of a single score describing the health status of the given coral reef.
 
